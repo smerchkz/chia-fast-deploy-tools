@@ -1,7 +1,6 @@
 #!/bin/sh
 
-busketName='your_basket_name'
-#busketName='gaming_1'
+basketName='chia-basket-001'
 
 #install google storage - gcsfuse
 #https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md
@@ -16,7 +15,5 @@ sudo apt-get install gcsfuse
 
 export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/gstorage-key.json"
 #mount
-mkdir "$(pwd)/../../gplots"
-gcsfuse $busketName $(pwd)/../../gplots
-
-
+mkdir "$(pwd)/../../storage"
+gcsfuse $basketName $(pwd)/../../storage
