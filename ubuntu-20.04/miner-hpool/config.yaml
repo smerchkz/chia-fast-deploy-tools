@@ -1,5 +1,5 @@
 path:
-  - ../../../gplots/
+  - ../../../storage/
 minerName: YOUR_MINER_NAME
 apiKey: YOUR_API_KEY_FROM_HPOOL
 cachePath: ""
