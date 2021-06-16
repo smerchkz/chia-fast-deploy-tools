@@ -1,0 +1,1 @@
+# Chia Google Storage (gsfuse) + hpool-miner + MadMax plotter + tools = fast deploy on Ubuntu 20.04
