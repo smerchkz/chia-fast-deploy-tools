@@ -1,0 +1,16 @@
+path:
+  - ../../../gplots/
+minerName: YOUR_MINER_NAME
+apiKey: YOUR_API_KEY_FROM_HPOOL
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+scanPath: true
+scanMinute: 3
