@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt install -y mc
+sudo apt install -y mc net-tools nload
