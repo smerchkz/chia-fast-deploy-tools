@@ -1,6 +1,6 @@
 #!/bin/sh
 
-storageBacket='backet/'
+storageBacket='chia-backet-001/'
 
 while :
 do
