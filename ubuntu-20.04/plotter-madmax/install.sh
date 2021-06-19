@@ -1,7 +1,10 @@
 #!/bin/sh
 
-mkdir "$(pwd)/../../plots"
-mkdir "$(pwd)/../../ssdTMP"
+mkdir -p "$(pwd)/../../ssd1/plots"
+mkdir -p "$(pwd)/../../ssd1/ssdTMP"
+
+mkdir -p "$(pwd)/../../ssd2/plots"
+mkdir -p "$(pwd)/../../ssd2/ssdTMP"
 
 sudo apt install -y libsodium-dev cmake g++ git
 # Checkout the source and install
